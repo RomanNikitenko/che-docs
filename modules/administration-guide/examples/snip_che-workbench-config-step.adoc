@@ -1,0 +1,3 @@
+. Customize the values in the `/code/src/vs/code/browser/workbench/che/workbench-config.json` file.
+
+// https://github.com/che-incubator/che-code/blob/main/code/src/vs/code/browser/workbench/che/workbench-config.json

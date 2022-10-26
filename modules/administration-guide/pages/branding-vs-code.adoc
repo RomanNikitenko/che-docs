@@ -2,7 +2,7 @@
 :description: Customize the Visual Studio Code interface and branding
 :keywords: contributor-guide, branding-vs-code
 :navtitle: Branding Visual Studio Code
-:page-aliases: contributor-guide:branding-vs-code.adoc
+:page-aliases: branding.adoc, contributor-guide:branding-vs-code.adoc
 
 :parent-context-of-branding-vs-code: {context}
 
