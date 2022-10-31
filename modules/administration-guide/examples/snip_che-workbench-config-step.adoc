@@ -27,5 +27,3 @@
 
 ----
 ====
-
-// The following file was added to that repository only as an example: https://github.com/che-incubator/che-code/blob/main/code/src/vs/code/browser/workbench/che/workbench-config.json

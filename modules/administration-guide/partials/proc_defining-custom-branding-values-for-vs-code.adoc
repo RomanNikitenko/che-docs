@@ -69,14 +69,14 @@ include::example$snip_{project-context}-workbench-config-step.adoc[]
 
 include::example$snip_{project-context}-codicon-css-step.adoc[]
 
-. Run the `/branding/branding.sh` script to BUILD? a new container image for Visual Studio Code - Open Source:
+. Run the `/branding/branding.sh` script.
 +
 [subs="+attributes,+quotes"]
 ----
 $ ./branding/branding.sh
 ----
 
-. Build the container image and push the image to a container registry:
+. Build the container image and push the image to a container registry.
 +
 [subs="+attributes,+quotes"]
 ----
