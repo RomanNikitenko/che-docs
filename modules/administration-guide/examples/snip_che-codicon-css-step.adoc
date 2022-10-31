@@ -1,1 +1,14 @@
-x
+. Create a `/branding/css/codicon.css` file with custom values.
++
+.`/branding/css/codicon.css`
+====
+[source,css]
+----
+span.codicon.codicon-eclipse-che  {
+	background-image: url(./che/che-icon.svg);
+	width: 13px;
+	height: 13px;
+}
+
+----
+// The following file was added only as an example: https://github.com/che-incubator/che-code/blob/main/code/src/vs/base/browser/ui/codicons/codicon/codicon.css
