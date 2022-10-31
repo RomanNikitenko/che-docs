@@ -62,7 +62,7 @@ This example shows all of the properties that you can customize:
 <9> The relative path to `css/codicon.css`, which is explained in one of the next steps.
 ====
 +
-NOTE: The values defined in the `branding/product.json` file override the link:https://github.com/che-incubator/che-code/blob/main/code/product.json[default values].
+include::example$snip_{project-context}-admonition-product-json-link.adoc[]
 
 . Add the icon files, which you specified in the `product.json` file in the previous step, to the repository.
 

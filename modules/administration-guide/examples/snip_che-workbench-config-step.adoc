@@ -1,3 +1,31 @@
-. Customize the values in the `/code/src/vs/code/browser/workbench/che/workbench-config.json` file.
+. Create a `/branding/workbench-config.json` file with custom values.
++
+.`/branding/workbench-config.json`
+====
+[source,json]
+----
+{
+	"windowIndicator": {
+		"label": "$(eclipse-che) Eclipse Che",
+		"tooltip": "Eclipse Che"
+	},
+	"configurationDefaults": {
+		"workbench.colorTheme": "Dark",
+		"workbench.colorCustomizations": {
+			"statusBarItem.remoteBackground": "#FDB940",
+			"statusBarItem.remoteForeground": "#525C86"
+		}
+	},
+	"initialColorTheme": {
+		"themeType": "dark",
+		"colors": {
+			"statusBarItem.remoteBackground": "#FDB940",
+			"statusBarItem.remoteForeground": "#525C86"
+		}
+	}
+}
 
-// https://github.com/che-incubator/che-code/blob/main/code/src/vs/code/browser/workbench/che/workbench-config.json
+----
+====
+
+// The following file was added to that repository only as an example: https://github.com/che-incubator/che-code/blob/main/code/src/vs/code/browser/workbench/che/workbench-config.json
