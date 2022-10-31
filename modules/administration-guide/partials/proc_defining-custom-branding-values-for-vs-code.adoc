@@ -47,7 +47,6 @@ This example shows all of the properties that you can customize:
     "workbenchConfigFilePath": "workbench-config.json", # <8>
     "codiconCssFilePath": "css/codicon.css" # <9>
 }
-
 ----
 <1> The application name for UI elements.
 <2> This is used for the *Welcome* page, **About** dialog, and browser tab title.
