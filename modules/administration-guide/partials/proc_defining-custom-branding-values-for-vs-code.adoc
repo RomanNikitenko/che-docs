@@ -87,7 +87,7 @@ span.codicon.codicon-eclipse-che  {
 pass:[<!-- vale RedHat.CaseSensitiveTerms = YES -->]
 +
 
-include::example$snip_{project-context}-codicon-css-link.adoc[]
+include::example$snip_{project-context}-codicon-css-step.adoc[]
 
 NOTE: The content of this file will be appended to the link:https://github.com/che-incubator/che-code/blob/main/code/src/vs/base/browser/ui/codicons/codicon/codicon.css[`codicon.css` file].
 // https://github.com/redhat-developer/devspaces-images/blob/devspaces-3-rhel-8/devspaces-code/branding/css/codicon.css
