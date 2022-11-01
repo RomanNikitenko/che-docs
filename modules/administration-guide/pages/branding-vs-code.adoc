@@ -13,29 +13,6 @@
 
 There is a functionality to apply branding to some UI elements. It is possible to customize the following elements:
 
-* Browser tab:
-** Favicon - browser tab icon
-** Product name - browser tab title
-
-* *Get Started* page:
-** Product name
-** Product logo - page tab icon
-
-* *About* dialog:
-** Product name
-
-* *Product status bar* item:
-** Label
-** Tooltip
-** Icon
-** Background color
-
-* *Product status bar* commands: 
-** The names of commands for the *Product status bar* item
-
-* The main area:
-** Icon for the main area when all editors are closed
-
 To start using the customized Visual Studio Code:
 
 . Provide branding resources in the `branding` folder.
@@ -45,8 +22,6 @@ To start using the customized Visual Studio Code:
 . Create a workspace from a Git repository using the custom editor.
 
 include::partial$proc_defining-custom-branding-values-for-vs-code.adoc[leveloffset=+1]
-
-include::partial$proc_building-a-vs-code-container-image-with-custom-branding.adoc[leveloffset=+1]
 
 include::partial$proc_testing-vs-code-with-custom-branding.adoc[leveloffset=+1]
 

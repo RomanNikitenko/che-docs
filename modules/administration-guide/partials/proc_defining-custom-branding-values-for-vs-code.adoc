@@ -6,6 +6,8 @@
 = Defining custom branding values for Visual Studio Code - Open Source
 
 This section describes how to customize definitions of basic branding elements of Visual Studio Code.
+AND
+This section describes how to build a Visual Studio Code container image with custom branding applied.
 
 .Procedure
 
@@ -57,7 +59,7 @@ This example shows all of the properties that you can customize:
 <6> The icon for the empty editor area when all editors are closed. You can provide different icon files for `light` and `dark` themes.
 <7> The names of commands provided by the link:https://github.com/che-incubator/che-code/blob/main/code/extensions/che-remote/package.nls.json[Eclipse Che Remote] extension. Users can run these commands by clicking the *Product status bar* item.
 //The second sentence above is not clear to me.
-<8> The relative path to `workbench-config.json`. See an link:https://github.com/che-incubator/che-code/blob/main/code/src/vs/code/browser/workbench/che/workbench-config.json[example of this file].
+<8> The relative path to `workbench-config.json`, which is explained in one of the next steps.
 <9> The relative path to `css/codicon.css`, which is explained in one of the next steps.
 ====
 +
