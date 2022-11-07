@@ -78,13 +78,39 @@ include::example$snip_{project-context}-codicon-css-step.adoc[]
 $ ./branding/branding.sh
 ----
 
-. Build the container image and push the image to a container registry.
+. Build the container image from the `/che-code/` directory and push the image to a container registry:
++
+.. {empty}
 +
 [subs="+attributes,+quotes"]
 ----
 $ {docker-cli} build -f build/dockerfiles/linux-musl.Dockerfile -t linux-musl-amd64 .
+----
++
+.. {empty}
++
+[subs="+attributes,+quotes"]
+----
 $ {docker-cli} build -f build/dockerfiles/linux-libc.Dockerfile -t linux-libc-amd64 .
+----
++
+.. {empty}
++
+[subs="+attributes,+quotes"]
+----
 $ export DOCKER_BUILDKIT=1
+----
++
+.. {empty}
++
+[subs="+attributes,+quotes"]
+----
 $ {docker-cli} build -f build/dockerfiles/assembly.Dockerfile -t vs-code-open-source .
-$ {docker-cli} push username/vs-code-open-source:next
+----
++
+.. {empty}
++
+[subs="+attributes,+quotes"]
+----
+$ {docker-cli} push __<username>__/vs-code-open-source:next
 ----
