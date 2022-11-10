@@ -2,8 +2,8 @@
 //
 // branding-vs-code
 
-[id="testing-vs-code-with-custom-branding_{context}"]
-= Testing Visual Studio Code - Open Source with custom branding
+[id="setting-up-vs-code-with-custom-branding_{context}"]
+= Setting up Visual Studio Code - Open Source with custom branding
 
 This section describes how to test a customized Visual Studio Code by opening a new workspace with custom branding.
 
@@ -96,39 +96,36 @@ inline:
         cpuRequest: 30m
 ----
 
+.Verification
+
 . Go to dashboard and create a workspace using `Create Workspace` => `Import from Git` form. Enter Git URL to your project with customized editor.
 +
-. Run the workspace to see the changes:
+. Run the workspace to see the changes.
 +
-* *Product status bar* item:
+* Check the *Product status bar* item:
 +
 image::branding/vs-code/status-bar-item.png[link="{imagesdir}/branding/vs-code/status-bar-item.png"]
 
-* Browser tab
+* Check the browser tab:
 +
 image::branding/vs-code/browser-tab.png[link="{imagesdir}/branding/vs-code/browser-tab.png"]
 
-* *About* dialog
+* Check the *About* dialog:
 +
 image::branding/vs-code/about-dialog.png[link="{imagesdir}/branding/vs-code/about-dialog.png"]
 
-* *Product status bar* commands: 
+* Check the *Product status bar* commands:
 +
 image::branding/vs-code/product-commands.png[link="{imagesdir}/branding/vs-code/product-commands.png"]
 
-* *Get Started* page tab: 
+* Check the *Get Started* page tab:
 +
 image::branding/vs-code/get-started-tab.png[link="{imagesdir}/branding/vs-code/get-started-tab.png"]
 
-* *Get Started* page: 
+* Check the *Get Started* page:
 +
 image::branding/vs-code/get-started-page.png[link="{imagesdir}/branding/vs-code/get-started-page.png"]
 
-* Icon for the main area when all editors are closed: 
+* Check the icon for the main area when all editors are closed:
 +
 image::branding/vs-code/main-area.png[link="{imagesdir}/branding/vs-code/main-area.png"]
-
-
-////
-.Additional resources
-////
