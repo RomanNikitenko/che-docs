@@ -32,6 +32,11 @@ image::branding/get-started-tab.png[link="{imagesdir}/branding/get-started-tab.p
 .The application name in the *About* dialog
 image::branding/about-dialog.png[link="{imagesdir}/branding/about-dialog.png"]
 
+.Prerequisites
+
+* Bash
+* `{docker-cli}`
+
 .Procedure
 
 include::example$snip_{project-context}-link-to-che-code-repository.adoc[]
